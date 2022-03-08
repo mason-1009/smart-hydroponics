@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Hydroponics Control</title>
+        <link rel="stylesheet" href="css/main.css" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed:300,400,500,700" rel="stylesheet">
+        <script type="text/javascript" src="js/Chart.bundle.min.js"></script>
+        <script type="text/javascript" src="js/popup.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+    </head>
+    <body>
+        <div id="header">
+            <h1 id="header-text">Hydroponics System Control Panel</h1>
+        </div>
+        <div id="content-area">
+            <div id="soil-humidity-card" class="information-card">
+                <h4 class="card-title-text">GM Saturation</h4>
+                <h2 id="soil-humidity-percentage" class="infotext">Disconnected<h2>
+            </div>
+            <div id="ambient-lighting-card" class="information-card">
+                <h4 class="card-title-text">Ambient Lighting</h4>
+                <button class="control-button" id="ambient-lighting-toggle">No Connection</button>
+            </div>
+            <div id="infograph-card" class="information-card">
+                <h4 class="card-title-text">Infographics</h4>
+                <canvas id="infograph-chart"></canvas>
+            </div>
+            <div id="photograph-card" class="information-card">
+                <h4 class="card-title-text">Habitat View</h4>
+                <img id="recent-habitat-image" src="/habview" />
+            </div>
+            <div id="warning-card" class="information-card">
+                <h4 class="card-title-text">Warnings</h4>
+                <h2 class="infotext" id="warning-string">Disconnected</h2>
+            </div>
+            <div id="growth-lamp-card" class="information-card">
+                <h4 class="card-title-text">Growth Lamp</h4>
+                <button class="control-button" id="growth-lamp-toggle">No Connection</button>
+            </div>
+            <div id="power-draw-card" class="information-card">
+                <h4 class="card-title-text">Power Draw</h4>
+                <h2 class="infotext" id="power-draw">Disconnected</h2>
+                <button class="control-button" id="reset-power-draw">No Connection</button>
+            </div>
+            <div id="misc-action-card" class="information-card">
+                <h4 class="card-title-text">Miscellaneous</h4>
+                <button class="control-button" id="autocontrol-toggle">No Connection</button>
+            </div>
+        </div>
+        <div id="modal-popup">
+            <div id="modal-content">
+                <h3 id="modal-warning-text"></h3>
+                <button class="control-button" id="modal-close-button" onclick="closeModal();">Close</button>
+            </div>
+        </div>
+    </body>
+</html>

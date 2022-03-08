@@ -1,0 +1,120 @@
+body {
+    background-color: #eae7dc;
+    margin: 0;
+    border: 0;
+    width: 100%;
+    height: 100%;
+} #header {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 50px;
+    padding: 50px;
+    background-color: #e98074;
+    color: #eae7dc;
+    font-family: "IBM Plex Sans Condensed", sans-serif;
+    box-sizing: border-box;
+} #header-text {
+    text-align: center;
+} #content-area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    transition: filter 0.5s;
+} .information-card {
+    min-width: 300px;
+    width: 40%;
+    padding: 15px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 5px #c7c7c7;
+    box-sizing: border-box;
+} .card-title-text {
+    font-family: "IBM Plex Sans Condensed", sans-serif;
+    font-weight: 200;
+    font-size: 36px;
+    color: #e98074;
+    margin-left: 5px;
+    margin-top: 5px;
+} .update-button {
+    width: 80%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #e98074;
+    border: none;
+    font-family: "IBM Plex Sans Condensed", sans-serif;
+    font-size: 32px;
+    color: white;
+    outline: none;
+    transition: color 0.25s, background-color 0.25s, outline 0.25s;
+} .update-button:hover {
+    color: #e98074;
+    background-color: #eae7dc;
+    outline: 3px solid #e98074;
+    cursor: pointer;
+} .infotext {
+    font-family: "IBM Plex Sans Condensed", sans-serif;
+    font-weight: 500;
+    font-size: 42px;
+} #recent-habitat-image {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 0;
+} .control-button {
+    color: white;
+    width: 40%;
+    height: 50px;
+    border: none;
+    background-color: #e98074;
+    font-family: "IBM Plex Sans Condensed", sans-serif;
+    font-size: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    box-sizing: border-box;
+    transition: color 0.25s, background-color 0.25s, outline 0.25s;
+} .control-button:hover {
+    color: #e98074;
+    background-color: #eae7dc;
+    outline: 3px solid #e98074;
+    cursor: pointer;
+} #ambient-lighting-toggle {
+    margin-bottom: 15px;
+} #autocontrol-toggle {
+    margin-bottom: 15px;
+} #infograph-chart {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+} #modal-popup {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+} #modal-content {
+    width: 60%;
+    margin: 10% auto;
+    padding: 20px;
+    background-color: #eae7dc;
+    box-shadow: black 1px 1px 15px;
+    transition: display 0.25s;
+} #modal-warning-text {
+    color: #e98074;
+    font-family: "IBM Plex Sans Condensed", sans-serif;
+    font-size: 48px;
+} #modal-close-button { }

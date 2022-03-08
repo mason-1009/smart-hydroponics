@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Progress Bar</title>
+        <script type="text/javascript">
+            function setProgress(percentage) {
+                document.getElementsByClassName("progress-bar-highlighter")[0].style.width=percentage.toString()+"%";
+            }
+        </script>
+        <style type="text/css">
+            .progress-bar-body {
+                width: 100%;
+                background-color: grey;
+            } .progress-bar-highlighter {
+                width: 1%;
+                height: 250px;
+                background-color: lightblue;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="progress-bar-body">
+            <div class="progress-bar-highlighter"></div>
+        </div>
+    </body>
+</html>
