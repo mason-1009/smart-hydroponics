@@ -1,4 +1,4 @@
-![Banner]("https://gitlab.com/air0-tek/smart-hydroponics/raw/e6c9f6ee879568911f74ab30b45d25607013d161/banner.png")
+![Banner]("https://raw.githubusercontent.com/mason-1009/smart-hydroponics/main/banner.png")
 
 STEM's smart hydroponics project includes a hydroponics chamber that is mostly computer-controlled, anticipating conditions and adjusting them based on sensor input
 
